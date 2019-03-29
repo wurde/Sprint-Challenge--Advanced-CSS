@@ -2,14 +2,15 @@
 
 .btn {
   display: inline-block;
+  cursor: pointer;
   text-align: center;
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 15px 30px;
+  padding: 5px 15px;
   border-radius: 5px;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.4rem;
   user-select: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -21,13 +22,13 @@
 
 .btn-main {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: @btn-bg-color;
+  border-color: @btn-bg-color;
 }
 .btn-main:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: @btn-bg-color-hover;
+  border-color: @btn-bg-color;
 }
 
 .btn-primary {

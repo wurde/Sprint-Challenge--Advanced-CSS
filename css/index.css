@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -162,6 +162,27 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+/*
+  Hide element
+*/
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
+}
+/*
+  Remove element
+*/
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
 }
 .d-flex {
   display: flex;
@@ -629,6 +650,45 @@ p {
   border-image-source: linear-gradient(150deg, #ff6100 15%, #2a6ae0 20%, #fff 94%);
   border-image-slice: 1;
   border-image-width: 4px;
+}
+/* Re-usable class-based CSS styles for buttons */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.btn-main {
+  color: #fff;
+  background-color: #22283A;
+  border-color: #22283A;
+}
+.btn-main:hover {
+  color: #fff;
+  background-color: #191e2b;
+  border-color: #22283A;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
 header nav a {
   font-size: 1.4rem;
