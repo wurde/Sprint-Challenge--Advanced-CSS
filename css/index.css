@@ -532,6 +532,9 @@ p {
 .rounded {
   border-radius: 5px;
 }
+.rounded-2x {
+  border-radius: 20px;
+}
 header nav a {
   font-size: 1.4rem;
   text-decoration: none;
