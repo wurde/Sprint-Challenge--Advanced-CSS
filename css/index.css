@@ -447,7 +447,27 @@ p {
 .text-center {
   text-align: center;
 }
-/* Re-usable class-based CSS styles for borders */
+/*
+  Borders
+*/
+.border {
+  border: 1px solid #dee2e6;
+}
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
+.border-right {
+  border-right: 1px solid #dee2e6;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+.border-left {
+  border-left: 1px solid #dee2e6;
+}
+/*
+  Border radius
+*/
 .rounded {
   border-radius: 5px;
 }
