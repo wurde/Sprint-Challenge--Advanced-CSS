@@ -730,4 +730,7 @@ footer {
   .row .col-1 {
     width: 100%;
   }
+  .d-sm-none {
+    display: none;
+  }
 }
