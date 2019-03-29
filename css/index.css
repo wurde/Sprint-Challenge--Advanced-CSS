@@ -447,6 +447,10 @@ p {
 .text-center {
   text-align: center;
 }
+/* Re-usable class-based CSS styles for borders */
+.rounded {
+  border-radius: 5px;
+}
 header nav a {
   text-decoration: none;
   color: black;
