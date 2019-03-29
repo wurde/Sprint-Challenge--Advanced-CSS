@@ -665,6 +665,7 @@ p {
   font-size: 1.4rem;
   user-select: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
 }
 .btn:hover {
   color: #212529;
@@ -689,6 +690,9 @@ p {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
+}
+.btn-block {
+  width: 100%;
 }
 header nav a {
   font-size: 1.4rem;
@@ -735,5 +739,10 @@ footer {
   }
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
+  }
+  .btn-sm-block {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
