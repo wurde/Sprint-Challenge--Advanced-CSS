@@ -733,4 +733,7 @@ footer {
   .d-sm-none {
     display: none;
   }
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse;
+  }
 }
