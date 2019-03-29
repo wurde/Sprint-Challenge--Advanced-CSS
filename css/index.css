@@ -444,6 +444,13 @@ p {
 .text-center {
   text-align: center;
 }
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header nav a:hover {
+  font-weight: bold;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
