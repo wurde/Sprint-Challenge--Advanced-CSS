@@ -216,6 +216,12 @@ p {
 .row .col-1 {
   width: 8.33333333%;
 }
+/*
+  Background colors
+*/
+.bg-grey {
+  background: #F6F6F6;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
