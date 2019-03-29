@@ -164,6 +164,10 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+button:hover {
+  background-color: #BBB;
+  color: white;
+}
 .container {
   max-width: 800px;
   width: 100%;
