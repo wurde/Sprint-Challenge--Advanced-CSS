@@ -1,8 +1,8 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SpaceWalkers</title>
 
@@ -13,54 +13,115 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
 <body>
+  <header class="bg-grey border-bottom">
+    <div class="container">
 
- <!-- navigation code here -->
+      <div class="row">
+        <div class="col-12 text-center py-2">
+          <h1>SpaceWalkers</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-6 py-2">
+          <nav>
+            <ul class="d-flex justify-content-around">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+  </header>
 
   <div class="container home">
 
     <header class="intro">
-       <!-- image code here -->
+      <div class="row">
+        <div class="col-12">
+          <img src="img/main-header.png" alt="Satellite view of earth." class="rounded w-100"/>
+        </div>
+      </div>
 
-      <h2>Lift Off</h2>
-    
-      <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="p-3">Lift Off</h2>
+
+          <p class="px-3">As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+        </div>
+      </div>
     </header>
 
     <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
-        <img src="img/sky.png" class="sky" alt="Space sky image">
-        <img src="img/launch.png" class="launch" alt="Launching rocket">
-    </section>
-   
-    <section class="visit-planets">
-     
-      <h3>Can We Visit Planets?</h3>
-    
-      <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
-    
-      <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
-    </section>
-    
-    <section class="walk">
-      <div class="walk-text">
-        <h3>Let's Go For A Walk</h3>
+      <div class="row p-3">
+        <div class="col-4 p-3">
+          <img src="img/blast.png" class="blast rounded-2x w-100 anim-flip-horizontal-bottom-hover" alt="Rocket blasting off">
+        </div>
 
-        <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
-      
-        <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
-      
-        <div class="btn">
-          Sign Up
+        <div class="col-4 p-3 d-sm-none">
+          <img src="img/sky.png" class="sky rounded-2x w-100 anim-flip-horizontal-bottom-reverse-hover" alt="Space sky image">
+        </div>
+
+        <div class="col-4 p-3 d-sm-none">
+          <img src="img/launch.png" class="launch rounded-2x w-100 anim-flip-horizontal-bottom-hover" alt="Launching rocket">
         </div>
       </div>
-      
-      <div class="walk-img">
-          <img src="img/space-walk.png" alt="Space walking astronaut">
-      </div>
-
     </section>
+
+    <section class="visit-planets">
+      <div class="row">
+        <div class="col-12 pb-2">
+          <h3 class="p-3">Can We Visit Planets?</h3>
+
+          <p class="px-3 mb-3">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
+
+          <p class="px-3">Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
+
+          <div class="mb-6 d-sm-none"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="py-3 d-sm-none"></div>
+    <hr class="hr-main"/>
+    <div class="py-3 d-sm-none"></div>
+
+    <section class="walk">
+      <div class="row flex-sm-column-reverse">
+        <div class="col-6">
+          <div class="py-2 d-sm-none"></div>
+
+          <h3 class="p-3">Let's Go For A Walk</h3>
+
+          <p class="px-3 mb-3">The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
+
+          <p class="px-3">Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
+
+          <div class="row">
+            <div class="col-12 py-3">
+              <a href="#" class="btn btn-main btn-sm-block">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="p-3">
+            <img src="img/space-walk.png" class="rounded-2x w-100" alt="Space walking astronaut">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="py-3 d-sm-none"></div>
+    <div class="py-3 d-sm-none"></div>
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
